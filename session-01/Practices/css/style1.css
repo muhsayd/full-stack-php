@@ -1,0 +1,172 @@
+.resetBrowserDefaults{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+}
+
+#wrapper{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+            top: 0;
+            background: red
+    }
+    #header{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%; 
+            height:90px; 
+            background-color: #4CAF50;
+}
+    #logo{
+            width:30%; 
+            float:left;
+            height:100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+    float: right;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4C0000;
+}
+.main-navbar{
+    width:30%; 
+    float: right;
+    }
+#topNavBar {
+            position: fixed;
+            top: 0;
+            width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+#slider{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%; 
+            height:245px; 
+            background-color: blue;
+    
+}
+#slider-image{
+                margin: 2;
+                padding: 2;
+                float: left;
+                width: 48%;
+                height: 100%
+}
+#slider-description{
+                    float: right;
+                    width: 25%;
+                    height: 100%
+}
+
+
+
+
+
+
+
+
+
+
+
+#container{
+                width: 100%;
+                height: 300px;
+                background-color: antiquewhite;
+
+                padding-bottom: 20px;
+    }
+    #left-box{
+                height: 100%;
+                margin: 10px 10px;
+                padding-left: 20px;
+                width: 30%;
+                background-color: greenyellow;
+                float: left;
+    }
+    #center-box{
+                height: 100%;
+                margin: 10px 10px;
+                padding-left: 20px;
+                width: 30%;
+                background-color: aquamarine;
+                float:left;
+    }
+    #right-box{
+                height: 100%;
+                margin: 10px 10px;
+                padding-left: 20px;
+                width: 30%;
+                background-color: brown;
+                float: right;
+    }
+
+
+
+
+
+    #footer{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%; 
+            height:40px; 
+            background-color: #4CAF50;
+
+
+#bottomNavBar {
+                position: fixed;
+                bottom: 0;
+                width: 30%;
+}

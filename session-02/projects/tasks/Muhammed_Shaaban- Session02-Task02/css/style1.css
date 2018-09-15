@@ -1,0 +1,163 @@
+wropper {
+    display: block;
+    width: 1000px;
+    margin: auto;
+    background: #002B71;
+    
+}
+
+header{
+    width: 100%;
+    height: 125px;
+    margin: 0px;
+    background: #FFBF00;
+}
+#logo{
+    height: 115px;
+    width: 25%;
+    float: left;
+    margin: 5px 20px;
+    text-align: center;
+}
+#logo-img{
+    margin: 15px;
+}
+
+.cleaner{
+    clear: both;
+}
+
+.social{
+    margin: 5px 20px;
+    width: 30%;
+    height: 50px;
+    float: right;
+    display: bl5k; 20px
+    line-height: 50px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: inherit;
+}
+.social-item{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    float: right;
+    width: 70px;
+    height: inherit;
+    line-height: 50px;
+}
+
+li a {
+    margin: 0px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.social-img{
+    height: 50px;
+    
+}
+nav{
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 69%;
+    height: 60px;
+    float: right;
+    line-height: 60px;
+}
+.nav-item{
+    text-align: center;
+    margin: 0;
+    padding: 0px 0px;
+    float: left;
+    width: 25%;
+    height: 100%;
+    line-height: 60px;
+}
+
+section{
+    height: 400px;
+    background: blue;
+    margin: 10px;
+}
+.slider{
+    text-align: center;
+    line-height: 400px;
+    height: 400px;
+    margin: 0px;
+}
+.slider-img{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+main{
+    height: 400px;
+    background: #E8FFD2;
+    margin: 10px;
+    text-align: center;
+    
+}
+.main-block{
+    width: 32.6%;
+    height: 390px;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#left-box{
+    margin-left: 5px;
+    margin-right: 2.5px;
+    background: #4F81BD;
+}
+#center-box{
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    background: #C0504D;
+}
+#right-box{
+    margin-left: 2.5px;
+    margin-right: 5px;
+    background: #9BBB59;
+    float: right;
+}
+
+.footer{
+    height: 80px;
+    background: #FFBF00;
+    line-height: 80px;
+    text-align: center;
+}
+#footer-txt{
+    text-align: center;
+    line-height: 80px;
+    margin: 0px 20px;
+    width: 30%;
+    float: left;
+    height: 80px;
+}
+.footer-social{
+    margin: 5px 20px;
+    width: 30%;
+    height: 70px;
+    text-align: center;
+    float: right;
+    display: block;
+}
+.footer-social-item{
+    margin: 0px;
+    padding: 0;
+    float: right;
+    width: 25%;
+    height: 100%;
+    line-height:70px;
+    text-align: center;
+}
