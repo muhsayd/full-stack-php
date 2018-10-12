@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+.clear-fix{
+    clear: both;
+}
+
+h3{
+    font-size: 18px;
+    color: #5C789E;
+}
+
+.btn{
+    display: block;
+    width: 100px;
+    background: red;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 7px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+#wrapper{
+    width: 1200px;
+    margin: auto;
+    font-family: Tahoma, Arial;
+}
+header{
+    height: 80px;
+    /*background: red;*/
+}
+header div.logo img{
+    height: 70%;
+    margin-top: 10px;
+}
+header div.logo{
+    width: 30%;
+    height: 70px;
+    /*background: green;*/
+    margin: 5px;
+    float: left;
+}
+header nav{
+    width: 60%;
+    /*background: #333;*/
+    float: right;
+    margin: 5px;
+    color: #000;
+}
+header nav ul{
+    float: right;
+    height: 70px;
+    line-height: 70px;
+}
+header nav ul li{
+    width: 60px;
+    float: left;
+    text-align: center;
+    border-right: #d63c3c solid 1px;
+}
+.last-li{
+    border-right:none;
+}
+#slider img{
+    width: 100%;
+}
+#slider{
+    /*background: #f00;*/
+    margin-bottom: 30px;
+}
+main{
+    min-height: 300px;
+    /*background: #f0f;*/
+    padding: 5px;
+}
+
+.welcome-mes{
+    width: 55%;
+    /*background: #0f0;*/
+    float: left;
+}
+
+.welcome-mes h1{
+    font-size: 30px;
+    color: #55A77C;
+}
+
+.welcome-mes p{
+    color: #DEDDD1;
+}
+
+.gallery{
+    width: 52%;
+    float: left;
+    /*background: #d63c3c;*/
+}
+
+.drawing{
+    width: 45%;
+    float: right;
+    /*background: #d63c30;*/
+}
+
+.g-img{
+    width: 48%;
+    height: 150px;
+    margin: .5%;
+    padding: .5%;
+    float: left;
+    background: #000000;
+    line-height: 150px;
+}
+
+.events{
+    width: 40%;
+    float: right;
+}
+.last-events{
+    padding: 10px;
+    background: #F9EDDD;
+    border: #FCD598 solid 5px;
+}
+.event-month{
+    margin: 10px 0px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    background: #D0D0D0;
+}
+
+section .event-month img {
+    display: block;
+    float: left;
+    width: 90%;
+    height: 60%;
+    margin: 10px 5% 0px 5%;
+}
+
+section .event-month a {
+    height: 40px;
+    width: 40%;
+    margin: 5px 30%;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+
+footer{
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    background: #B84D00
+}
+
+footer nav{
+    width: 50%;
+    height: 75px;
+    /*background: #333;*/
+    text-align: center;
+    line-height: 75px;
+    margin:0px 25%;
+    color: #fff;
+}
+
+footer nav ul li{
+    width: 19.8%;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-right: #fff solid 1px;
+    margin: 25px 0;
+}
+.copy-right{
+    width: 50%;
+    height: 50px;
+    /*background: #333;*/
+    text-align: center;
+    line-height: 50px;
+    margin:0px 25%;
+    color: #fff;
+}

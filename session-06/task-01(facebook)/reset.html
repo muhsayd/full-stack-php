@@ -1,0 +1,131 @@
+<!-- content table -->
+<table 
+       style="padding: 10px; 
+              width: 100%;" 
+       border="0" 
+       cellspacing="0" 
+       cellpadding="0">
+<tbody>
+    <tr>
+        <td 
+    valign="top">
+            <br />
+            <br /> 
+    <!-- box -->
+            <div style="padding: 20px; 
+            background: #EFEFEF; 
+            color: #555; 
+            font-size: 22px; 
+            direction: ltr">
+                <strong>
+        Dear
+                </strong>
+                <span 
+          style="color: #ff6c3a;" 
+          dir="auto">
+        {$client_name},
+                </span>
+            </div>
+            <br />
+            <br />
+        <div style="padding: 20px; 
+                        background: #EFEFEF; 
+                        color: #555; 
+                        font-size: 22px; 
+                        direction: ltr">
+            
+                <span style="color: #fe8961; padding: 10px 0px; font-size: strong">
+PLEASE READ THIS EMAIL IN FULL AND PRINT IT FOR YOUR RECORDS.
+                    </span>            
+                <br>
+                <br>        
+We are pleased to tell you that the server you ordered has now been set up and is operational.
+    
+            </div>
+
+<br>
+            <div style="padding: 20px; 
+            background: #EFEFEF; 
+            color: #555; 
+            font-size: 22px; 
+            direction: ltr">
+                <br>
+<h4>Server Details</h4>
+                <br>
+=============================
+                <br>
+Package: {$service_product_name}<br>
+ServerName: {$service_domain}<br>
+Main IP: {$service_dedicated_ip}<br>
+Additional IPs: <br>
+                {$service_assigned_ips}<br>
+Root pass: {$service_password}<br>
+SSH Port: {$service_custom_field_sshport}<br>
+
+
+<!-- end button-orange -->
+            </div>
+            <br>
+            
+            <div style="padding: 20px; 
+            background: #EFEFEF; 
+            color: #555; 
+            font-size: 22px; 
+            direction: ltr">
+                <br>
+<h4>SSH Access Information</h4><br>
+=============================<br>
+Main IP Address: {$service_dedicated_ip}<br>
+Server Name: {$service_domain}<br>
+Root Password: {$service_password}<br>
+SSH Port: {$service_custom_field_sshport}<br>
+                <br>
+                <br>
+                You can access your server using a free simple SSH client program called Putty located at:
+http://www.securitytools.net/mirrors/putty/
+
+
+<!-- end button-orange -->
+            </div>
+            <br>
+            
+            <div style="padding: 20px; 
+            background: #EFEFEF; 
+            color: #555; 
+            font-size: 22px; 
+            direction: ltr">
+<br>
+<h4>Support</h4><br>
+=============================<br>
+For any support needs, please open a ticket at 
+                      <div style="text-align: center; 
+                            margin-top: 20px; 
+                            margin-bottom: 20px;">
+                    <a style="display: inline-block;
+                              padding: 10px 15px; background-color: #fe8961; color: #fff; 
+                              border-radius: 4px; 
+                              text-decoration: none; 
+                              font-weight: bold;" 
+                       href="{$whmcs_url}"
+                       target="_blank">
+                        
+                        Support Center 
+                    
+                    </a>
+                </div>
+Please include any necessary information to provide you with faster service, such as root password, domain names, and a description of the problem / or assistance needed. This will speed up the support time by allowing our administrators to immediately begin diagnosing the problem.
+
+
+<!-- end button-orange -->
+            </div>
+            <br>
+            
+<!-- end box --> 
+            <br>
+            <br>
+            {$signature}
+        </td>
+    </tr>
+    </tbody>
+</table>
+<!-- end content table -->
